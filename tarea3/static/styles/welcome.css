@@ -1,0 +1,58 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #00e676, #2979ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 420px;
+    border: 1px solid #e0f2f1;
+}
+
+/* Título */
+h1 {
+    color: #2e7d32; /* verde oscuro de bienvenida */
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+/* Mensaje */
+p {
+    color: #555;
+    font-size: 1.15rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+/* Enlace de "Cerrar sesión" */
+a {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #4caf50; /* verde alegre */
+    text-decoration: none;
+    font-size: 1.05rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efecto hover */
+a:hover {
+    background-color: #e22424; /* verde más fuerte */
+    transform: scale(1.03);
+    cursor: pointer;
+}
