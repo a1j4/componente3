@@ -1,7 +1,7 @@
 /* Fondo general del sitio */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Degradado minimalista */
+    background: linear-gradient(135deg, #b97272, #93bff8); /* Degradado minimalista */
     display: flex;
     justify-content: center;
     align-items: center;
